@@ -23,6 +23,8 @@ public class SginupActivity extends AppCompatActivity implements View.OnClickLis
         etAddr = (EditText) findViewById(R.id.etAddr);
         btSubmit = (Button) findViewById(R.id.btSubmit);
         btCancel = (Button) findViewById(R.id.btCancel);
+        btSubmit.setOnClickListener(this);
+        btCancel.setOnClickListener(this);
     }
 
     @Override

@@ -16,14 +16,19 @@
             </intent-filter>
         </activity>
         <activity android:name=".presentation.MemberActivity" />
-        <activity android:name=".presentation.SginupActivity">
+        <activity android:name=".presentation.SginupActivity"></activity>
+        <activity android:name=".presentation.SgininActivity" />
+        <activity android:name=".presentation.DetailActivity" />
+        <activity android:name=".presentation.UpdateActivity" />
+        <activity android:name=".presentation.ListActivity" />
+        <activity android:name=".presentation.MypageActivity" />
+        <activity android:name=".presentation.scheduleActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".presentation.SgininActivity"></activity>
     </application>
 
 </manifest>
